@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowContentOverlay">@drawable/drop_shadow</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowContentOverlay">@drawable/drop_shadow</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="colorControlNormal">#afff</item>
+        <item name="colorControlActivated">#afff</item>
+        <item name="colorControlHighlight">#afff</item>
+        <item name="hintTextColor">#afff</item>
+        <item name="android:textColorHint">#afff</item>
+    </style>
+
+    <style name="NumberPickerStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+
+    <style name="FilterDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#cfff</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "597311862013",
+    "firebase_url": "https://elofy-2bc9e.firebaseio.com",
+    "project_id": "elofy-2bc9e",
+    "storage_bucket": "elofy-2bc9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597311862013:android:ec0e818c4c538309",
+        "android_client_info": {
+          "package_name": "com.peatis.elofy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597311862013-8fqrplrtoqkulle67nprgua997u71lub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.peatis.elofy",
+            "certificate_hash": "0e0dd5b5e484f8ab2a30c4ab3eddd8887bea952b"
+          }
+        },
+        {
+          "client_id": "597311862013-7irbqt0vupcb0eccqoo1i78e9pdai01j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu6uTUQXJWVppyllbDQor4qFZCvlzNo3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597311862013-7irbqt0vupcb0eccqoo1i78e9pdai01j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
